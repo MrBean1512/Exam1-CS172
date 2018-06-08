@@ -2,6 +2,18 @@
 #include "Movie.h"
 #include "Theater.h"
 using namespace std;
+
+/*
+Movie Implementation:   10/10
+Theater Implementation: 11/20
+Passes Tests:           20/25
+UML:                    20/20
+Clean, commented code:  20/25
+
+TOTAL:                  81/100
+
+*/
+
 int main()
 {
 	//Note: you should not need to alter this code at all for your tests to pass.
@@ -38,5 +50,7 @@ int main()
 	}
 	if (errors == 0) cout << "Passed\n";
 	else cout << "Errors: " << errors << endl;
-	cout << movieListing[1].GetShowtime;
+	//PT -- don't make changes to this file
+	//  -2
+	cout << movieListing[1].GetShowtime();
 }
